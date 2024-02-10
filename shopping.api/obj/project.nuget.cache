@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "m4Hxjay5cmGR7mp2ZERKDMJVjXKQVdC/UuSFAYLxnouDqhpcme30kYgvDWrKabdEtt4RRq94NQelW69U3xk2Nw==",
+  "success": true,
+  "projectFilePath": "/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/shopping.api.csproj",
+  "expectedPackageFiles": [
+    "/Users/thatofabiyi/.nuget/packages/microsoft.aspnetcore.openapi/7.0.8/microsoft.aspnetcore.openapi.7.0.8.nupkg.sha512",
+    "/Users/thatofabiyi/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/thatofabiyi/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/thatofabiyi/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/thatofabiyi/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/thatofabiyi/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/thatofabiyi/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
