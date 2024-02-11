@@ -29,3 +29,7 @@
 /Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.Client/obj/Debug/net7.0/shopping.Client.pdb
 /Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.Client/obj/Debug/net7.0/shopping.Client.genruntimeconfig.cache
 /Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.Client/obj/Debug/net7.0/ref/shopping.Client.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.Client/bin/Debug/net7.0/System.Net.Http.Formatting.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.Client/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.Client/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.Client/obj/Debug/net7.0/shopping.Client.csproj.CopyComplete
