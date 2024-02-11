@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shoppingapi-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shoppingapi
+  template:
+    metadata:
+      labels:
+        app: shoppingapi
+    spec:
+      containers:
+      - name: shoppingapi
+        image: thato955/shopping.api
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        env:
+          - name:  MONGO_INITDB_ROOT_USERNAME
+            valueFrom:
+              secretKeyRef:
+                name:  mongo-secret
+                key: MONGO_INITDB_ROOT_USERNAME
+          - name:  MONGO_INITDB_ROOT_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name:  mongo-secret
+                key: MONGO_INITDB_ROOT_PASSWORD
+          - name: ASPNETCORE_ENVIROMENT
+            value: Development
+          - name: DatabaseSettings__ConnectionString
+            value: mongodb-service
+        ports:
+        - containerPort: 8081
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name:  shoppingapi-service
+spec:
+  type: NodePort
+  selector:
+    app:  shoppingapi
+  ports:
+    - protocol: TCP
+      port: 8081
+      targetPort: 8081
+      nodePort: 31000
