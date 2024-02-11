@@ -31,3 +31,16 @@
 /Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/obj/Debug/net7.0/shopping.api.pdb
 /Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/obj/Debug/net7.0/shopping.api.genruntimeconfig.cache
 /Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/obj/Debug/net7.0/ref/shopping.api.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/AWSSDK.Core.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/AWSSDK.SecurityToken.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/DnsClient.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/MongoDB.Bson.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/MongoDB.Driver.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/MongoDB.Driver.Core.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/MongoDB.Libmongocrypt.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/SharpCompress.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/Snappier.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/ZstdSharp.dll
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/runtimes/linux/native/libmongocrypt.so
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/runtimes/osx/native/libmongocrypt.dylib
+/Users/thatofabiyi/Desktop/Devops/kuberentes/Azure/Shopping-cart-demo-K8/shopping.api/bin/Debug/net7.0/runtimes/win/native/mongocrypt.dll

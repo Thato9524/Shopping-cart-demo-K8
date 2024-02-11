@@ -9,9 +9,9 @@ namespace shopping.api.Data
 
         public ProductContext(IConfiguration configuration)
         {
-            var client = new MongoClient(configuration["DataBaseSetting:ConnectionString"]);
-            var database = client.GetDatabase(configuration["DataBaseSetting:DataBaseName"]);
-            Products = database.GetCollection<Product>(configuration["DataBaseSetting:CollectionName"]);
+            var client = new MongoClient(configuration["DatabaseSettings:ConnectionString"]);
+            var database = client.GetDatabase(configuration["DatabaseSettings:DataBaseName"]);
+            Products = database.GetCollection<Product>(configuration["DatabaseSettings:CollectionName"]);
 
             SeedData(Products);
         }
