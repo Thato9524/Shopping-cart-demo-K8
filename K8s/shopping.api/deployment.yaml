@@ -20,20 +20,13 @@ spec:
             memory: "128Mi"
             cpu: "500m"
         env:
-          - name:  MONGO_INITDB_ROOT_USERNAME
-            valueFrom:
-              secretKeyRef:
-                name:  mongo-secret
-                key: MONGO_INITDB_ROOT_USERNAME
-          - name:  MONGO_INITDB_ROOT_PASSWORD
-            valueFrom:
-              secretKeyRef:
-                name:  mongo-secret
-                key: MONGO_INITDB_ROOT_PASSWORD
           - name: ASPNETCORE_ENVIROMENT
             value: Development
           - name: DatabaseSettings__ConnectionString
-            value: mongodb-service
+            valueFrom:
+              configMapKeyRef:
+                name:  mongo-configmap
+                key: connection_string
         ports:
         - containerPort: 8081
 ---
